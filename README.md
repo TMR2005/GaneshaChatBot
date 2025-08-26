@@ -21,9 +21,6 @@ The GaneshaBot employs a client-server architecture. The frontend is a web appli
 |   TypeScript    |----->|    Python Backend    |----->|      AI Models      |
 |    Frontend     |<-----|     (Flask API)      |<-----| (Whisper, Llama 3,  |
 +-----------------+      +----------------------+      |       Piper)        |
-|                                                    ^
-|                                                    |
-+----------------------------------------------------+
 
 {
   "id": "unique_file_id",
@@ -241,3 +238,4 @@ Serves the generated audio file to the frontend.
 3.  **LLM Processing (Backend):** The text is used as a query for the RAG system. The text and the retrieved context are passed to the Llama 3 model, which generates a text-based response.
 4.  **API Response (Backend):** The backend sends a JSON response to the frontend containing the original message and the generated response from Ganesha.
 5.  **Display Response (Frontend):** The frontend displays the text response in the chat interface.
+
