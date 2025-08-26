@@ -30,7 +30,7 @@ The GaneshaBot employs a client-server architecture. The frontend is a web appli
     * **Whisper.cpp:** For speech-to-text transcription.
     * **GPT-4All (Llama 3 8B Instruct):** For generating conversational responses.
     * **RAG (Retrieval-Augmented Generation):** To provide the LLM with context from Ganesha's lore.
-    * **Piper:** For text-to-speech synthesis.
+    * **Piper:** For text-to-speech synthesis. Please use this link https://drive.google.com/drive/u/3/folders/1Wn53dd29NEDhEVZjZTO5kH0tk2N5A_pu and download it in the piper folder
 
 ---
 
@@ -137,6 +137,7 @@ Serves the generated audio file to the frontend.
 3.  **LLM Processing (Backend):** The text is used as a query for the RAG system. The text and the retrieved context are passed to the Llama 3 model, which generates a text-based response.
 4.  **API Response (Backend):** The backend sends a JSON response to the frontend containing the original message and the generated response from Ganesha.
 5.  **Display Response (Frontend):** The frontend displays the text response in the chat interface.
+
 
 
 
