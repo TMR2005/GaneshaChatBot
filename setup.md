@@ -73,7 +73,7 @@ This involves setting up the Python environment, building the transcription mode
 #### a. Install ffmpeg
 ffmpeg is required for audio processing and must be accessible from your system's PATH.
 
-Windows: Download the binaries from ffmpeg.org and add the bin folder to your system's PATH.
+Windows: Download the binaries from ffmpeg.org and add the bin folder to your system's PATH. Or in your cmd , do winget ffmpeg
 
 macOS (using Homebrew): brew install ffmpeg
 
