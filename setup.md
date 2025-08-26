@@ -25,5 +25,7 @@ Follow these steps to set up both the backend and frontend components of the app
 First, clone this repository to your local machine using Git.
 
 ```bash
-git clone [https://github.com/TMR2005/ganeshabot.git](https://github.com/your-username/ganeshabot.git)
+git clone https://github.com/TMR2005/GaneshaChatBot.git
 cd ganeshabot
+```
+
