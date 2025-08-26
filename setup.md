@@ -64,10 +64,10 @@ git clone [https://github.com/your-username/ganeshabot.git](https://github.com/y
 cd ganeshabot
 ```
 
-2. Backend Setup
+### 2. Backend Setup
 This involves setting up the Python environment, building the transcription model, and preparing the knowledge base.
 
-a. Install ffmpeg
+# a. Install ffmpeg
 ffmpeg is required for audio processing and must be accessible from your system's PATH.
 
 Windows: Download the binaries from ffmpeg.org and add the bin folder to your system's PATH.
