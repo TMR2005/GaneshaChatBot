@@ -1,0 +1,127 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+.env.*.local
+
+# Unit test / coverage reports
+.coverage*
+htmlcov/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Databases / vectors
+*.sqlite3
+chroma_db/
+main/chroma_db/
+
+# App data artifacts
+uploads/
+converted/
+transcriptions/
+output.wav
+main/output.wav
+
+# Whisper.cpp build artifacts and caches
+whisper.cpp/build*/
+whisper.cpp/bin/
+whisper.cpp/**/CMakeCache.txt
+whisper.cpp/**/CMakeFiles/
+whisper.cpp/**/cmake_install.cmake
+whisper.cpp/**/Makefile
+whisper.cpp/models/
+
+# Large TTS assets (keep sources in repo minimal)
+main/piper/*.onnx
+main/piper/*.onnx.json
+main/piper/*.dll
+main/piper/onnxruntime*.dll
+main/piper/piper_phonemize.dll
+main/piper/test*.wav
+main/piper/*.wav
+main/piper/espeak-ng-data/
+main/piper/libtashkeel_model.ort
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build / cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Node (if any)
+node_modules/
+
+# App generated artifacts
+uploads/
+converted/
+transcriptions/
+output.wav
+main/output.wav
+
+# Whisper build artifacts
+whisper.cpp/build/
+whisper.cpp/**/CMakeFiles/
+whisper.cpp/**/CMakeCache.txt
+whisper.cpp/**/cmake_install.cmake
+whisper.cpp/**/Makefile
+whisper.cpp/**/.vs/
