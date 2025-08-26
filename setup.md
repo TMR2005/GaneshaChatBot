@@ -67,7 +67,7 @@ cd ganeshabot
 ### 2. Backend Setup
 This involves setting up the Python environment, building the transcription model, and preparing the knowledge base.
 
-# a. Install ffmpeg
+#### a. Install ffmpeg
 ffmpeg is required for audio processing and must be accessible from your system's PATH.
 
 Windows: Download the binaries from ffmpeg.org and add the bin folder to your system's PATH.
@@ -75,4 +75,27 @@ Windows: Download the binaries from ffmpeg.org and add the bin folder to your sy
 macOS (using Homebrew): brew install ffmpeg
 
 Linux (Debian/Ubuntu): sudo apt update && sudo apt install ffmpeg
+
+#### b. Set Up Whisper.cpp for Transcription
+We will clone and build whisper.cpp inside the backend folder.
+
+```bash
+# Navigate to the backend directory from the project root
+cd backend
+
+# Clone the whisper.cpp repository
+git clone [https://github.com/ggerganov/whisper.cpp.git](https://github.com/ggerganov/whisper.cpp.git)
+
+# Navigate into the whisper.cpp directory and build it
+cd whisper.cpp
+make
+
+# Download the ggml-medium.bin model
+cd model
+bash ./models/download-ggml-model.sh medium
+
+# Go back to the backend directory
+cd ..
+```
+
 
