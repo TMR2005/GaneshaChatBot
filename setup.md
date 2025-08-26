@@ -98,4 +98,30 @@ bash ./models/download-ggml-model.sh medium
 cd ..
 ```
 
+#### c. Download LLM and TTS Models
+You need to download the language model and the text-to-speech models and place them in a models directory inside the backend folder.
+
+GPT4All Llama 3 8B Instruct: Download the model file from the GPT4All website. Place the downloaded .gguf file into backend/models/.
+
+Piper TTS Model: Download your desired voice model from the Piper models page. You will need both the .onnx and .onnx.json files. Place them in backend/models/ as well.
+
+Install gpt4all and install the Llama 3 8B instrcut model, paste the correct path in the models path in agent.py
+
+##### d. Python Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+#### 5.For RAG, run the embed.py once
+```bash
+cd main
+python embed.py
+```
+
+#### 6. Run the backend app.py
+```bash
+cd ..
+python app.py
+```
+
 
