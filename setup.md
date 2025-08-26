@@ -13,6 +13,9 @@ Before you begin, ensure you have the following installed on your system:
 * A **C++ compiler** (like g++ or clang) for building `whisper.cpp`.
 * **Git** for version control.
 * **ffmpeg** for audio processing.
+* **CUDA toolkits** setup for faster responses.
+* ***GPT4all*** and Llama 3 8B Instruct model
+* ***piper*** for voice 
 
 ---
 
