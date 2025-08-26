@@ -60,7 +60,7 @@ Follow these steps to set up both the backend and frontend components of the app
 First, clone this repository to your local machine using Git.
 
 ```bash
-git clone [https://github.com/your-username/ganeshabot.git](https://github.com/your-username/ganeshabot.git)
+git clone https://github.com/TMR2005/GaneshaChatBot.git
 cd ganeshabot
 ```
 
@@ -123,5 +123,14 @@ python embed.py
 cd ..
 python app.py
 ```
+
+#### 7. Frontend setup
+```bash
+cd Frontend
+npm i
+npm run dev
+```
+After these steps in your browser, go to localhost:5173
+
 
 
